@@ -1,4 +1,6 @@
-class Customer {
+import Address from "./address";
+
+export default class Customer {
   _id: string;
   _name: string;
   _address!: Address;
@@ -40,5 +42,3 @@ class Customer {
     this._address = address;
   }
 }
-
-export default Customer;
